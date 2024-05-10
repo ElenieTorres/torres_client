@@ -6,7 +6,7 @@
                 sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat
                 aliqua.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="#" class="w-36 rounded-3xl bg-slate-950 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Start Reading</a>
+                <a href="#" class="w-36 rounded-3xl bg-slate-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Start Reading</a>
                 <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Upload Story <span
                         aria-hidden="true">→</span></a>
             </div>
