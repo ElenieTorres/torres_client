@@ -55,14 +55,9 @@
                 </div>
             </div>
 
-            <!-- Book form -->
+           <!-- Read -->
             <div class="mt-10 lg:col-start-1 lg:row-start-2 lg:max-w-lg lg:self-start">
-                <form>
-                    <div>
-                        <button type="submit"
-                            class="flex w-full items-center justify-center rounded-3xl border border-transparent bg-slate-950 px-8 py-3 text-base font-medium text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50">READ NOW</button>
-                    </div>
-                </form>
+                <button class="flex w-full items-center justify-center rounded-3xl border border-transparent bg-slate-700 px-8 py-3 text-base font-medium text-white hover:bg-slate-900 focus:outline-none">READ NOW</button>
             </div>
         </div>
     </div>
