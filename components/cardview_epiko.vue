@@ -1,0 +1,51 @@
+<template>
+    <div class="bg-white">
+        <div class="mx-auto max-w-7xl overflow-hidden px-4 py-16 sm:px-6 sm:py-10 lg:px-8">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
+                <a v-for="book in books" :key="book.id" :href="book.href" class="group text-sm">
+                    <div class="aspect-h-1 aspect-w-1 overflow-hidden rounded-lg bg-gray-100 group-hover:opacity-75">
+                        <img :src="book.imageSrc" :alt="book.imageAlt"
+                            class="h-full w-full object-cover object-center" />
+                    </div>
+                    <h3 class="mt-4 font-medium text-base text-gray-900">{{ book.title }}</h3>
+                    <p class="mt-2 italic text-gray-500">{{ book.author }}</p>
+                    <p class="mt-2 font-medium text-gray-900">{{ book.details }}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+  </template>
+  
+  <script setup>
+
+  const books = [
+    {
+        id: 1,
+        title: 'AMBURUKAY: SUGIDANON (EPICS) OF PANAY BOOK 2',
+        href: '#',
+        author: 'by FEDERICO “TUOHAN” CABALLERO, LEOPOLDO “PAINO” CABALLERO, and ALICIA P. MAGOS',
+        details: 'Epiko',
+        imageSrc: 'images/book5.jpg',
+        imageAlt: '',
+    },
+    {
+        id: 2,
+        title: 'SINAGNAYAN: SUGIDANON (EPICS) OF PANAY BOOK 6',
+        href: '#',
+        author: 'by MAGOS, ALICIA P. & RAMIREZ, ANNA RAZEL LIMOSO',
+        details: 'Epiko',
+        imageSrc: 'images/book7.png',
+        imageAlt: '',
+    },
+    {
+        id: 3,
+        title: 'BALANAKON: SUGIDANON (EPICS) OF PANAY BOOK 7',
+        href: '#',
+        author: 'by MAGOS, ALICIA P. & RAMIREZ, ANNA RAZEL LIMOSO',
+        details: 'Epiko',
+        imageSrc: 'images/book6.jpg',
+        imageAlt: '',
+    },
+    // More books...
+  ]
+  </script>
